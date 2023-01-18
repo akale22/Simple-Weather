@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FFFFFF;
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.main {
+    background: #000000;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 20px;
+    font-family: inherit;
+}
+
+.search-bar:hover {
+    background: #D3D3D3;
+    cursor: pointer;
+}
+
+button {
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+button:hover {
+    background: #808080;
+    cursor: pointer;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+}
+
+.description, .feels-like, .humidity, .wind {
+    margin-top: 5px;
+}
