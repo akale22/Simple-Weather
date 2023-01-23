@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 // Displaying the data from the Open Weather Map API for the specified city
-app.post("/", (req, res) => {
+app.post("/weather", (req, res) => {
   // Obtaining the specified city from the request
   let city = req.body.city;
 
